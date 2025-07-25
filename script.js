@@ -2,10 +2,11 @@ fetch('https://raw.githubusercontent.com/RokuIL/Live-From-Israel/refs/heads/mast
   .then(res => res.json())
   .then(data => {
     const container = document.getElementById('channelList');
+
     data.Channels.forEach(channel => {
-      // מוצא כתובת סטרים חוקית (ללא @@)
-      const cleanUrl = (channel.StreamUrls || []).find(url => !url.includes('@@'));
-      if (!cleanUrl) return;
+      // סינון כל כתובות הסטרים שלא מכילות @
+      const validStream = (channel.StreamUrls || []).find(url => !url.includes('@'));
+      if (!validStream) return;
 
       const div = document.createElement('div');
       div.className = 'channel';
@@ -13,9 +14,11 @@ fetch('https://raw.githubusercontent.com/RokuIL/Live-From-Israel/refs/heads/mast
         <img src="${channel.Logo}" alt="${channel.Title}">
         <span>${channel.Title}</span>
       `;
+
       div.onclick = () => {
-        window.open(`player.html?src=${encodeURIComponent(cleanUrl)}`, '_blank');
+        window.open(`player.html?src=${encodeURIComponent(validStream)}`, '_blank');
       };
+
       container.appendChild(div);
     });
   })
