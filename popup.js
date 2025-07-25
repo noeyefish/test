@@ -1,22 +1,9 @@
-const PRIMARY_URL = 'https://raw.githubusercontent.com/RokuIL/Live-From-Israel/refs/heads/master/Channels.json';
-const FALLBACK_URL = 'https://raw.githubusercontent.com/noeyefish/test/refs/heads/main/channels.json';
-
-function loadChannels(url) {
-  return fetch(url)
-    .then(res => {
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return res.json();
-    });
-}
-
-loadChannels(PRIMARY_URL)
-  .catch(err => {
-    console.warn('Primary JSON failed, loading fallback:', err);
-    return loadChannels(FALLBACK_URL);
-  })
+fetch('https://raw.githubusercontent.com/RokuIL/Live-From-Israel/refs/heads/master/Channels.json')
+  .then(res => res.json())
+  .catch(() => fetch('https://raw.githubusercontent.com/noeyefish/test/refs/heads/main/channels.json').then(r => r.json()))
   .then(data => {
     const container = document.getElementById('channelList');
-    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    let favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
 
     function toggleFavorite(title) {
       const idx = favorites.indexOf(title);
@@ -36,7 +23,7 @@ loadChannels(PRIMARY_URL)
       });
 
       channels.forEach(channel => {
-        if (!channel.StreamUrls || channel.StreamUrls.length === 0) return;
+        if (!channel.StreamUrls?.length) return;
         const validStream = channel.StreamUrls.find(u => !u.includes('@'));
         if (!validStream) return;
 
@@ -53,13 +40,15 @@ loadChannels(PRIMARY_URL)
           </div>
         `;
 
-        div.querySelector('img').addEventListener('click', () => {
+        // לחיצה על כל הריבוע
+        div.addEventListener('click', () => {
           window.open(
             `https://www.hlsplayer.org/play?url=${encodeURIComponent(validStream)}`,
             '_blank'
           );
         });
 
+        // עצירה של האירוע לפני ההפנייה למועדפים
         div.querySelector('.fav-btn').addEventListener('click', e => {
           e.stopPropagation();
           toggleFavorite(channel.Title);
@@ -72,7 +61,6 @@ loadChannels(PRIMARY_URL)
     renderChannels(data.Channels);
   })
   .catch(err => {
-    document.getElementById('channelList').innerHTML =
-      '<p style="color:red;">⚠ שגיאה בטעינת הערוצים</p>';
+    document.getElementById('channelList').innerHTML = '<p style="color:red;">⚠ שגיאה בטעינת הערוצים</p>';
     console.error('Failed to load any channel list:', err);
   });
