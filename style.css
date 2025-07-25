@@ -4,11 +4,13 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
+
 h2 {
   margin: 20px 0;
   color: #00aaff;
   text-align: center;
 }
+
 #channelList {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -16,31 +18,48 @@ h2 {
   padding: 15px;
   justify-items: center;
 }
+
 .channel .card {
   background: #2a2a2c;
   border-radius: 12px;
   padding: 10px;
   width: 110px;
-  height: 130px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   transition: background 0.2s ease;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   text-align: center;
 }
+
 .channel .card:hover {
   background: #3a3a3d;
 }
+
 .channel img {
   width: 48px;
   height: 48px;
   object-fit: contain;
   margin-bottom: 8px;
 }
+
 .channel span {
   font-size: 0.85em;
   line-height: 1.1;
   word-break: break-word;
+}
+
+.fav-btn {
+  background: none;
+  border: none;
+  color: gold;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.fav-btn:hover {
+  filter: brightness(1.3);
 }
