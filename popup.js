@@ -14,7 +14,7 @@ fetch('https://raw.githubusercontent.com/RokuIL/Live-From-Israel/refs/heads/mast
         <span>${channel.Title}</span>
       `;
       div.addEventListener('click', () => {
-        window.open(`player.html?src=${encodeURIComponent(validStream)}`, '_blank');
+        window.open(`https://www.hlsplayer.org/?url=${encodeURIComponent(validStream)}`, '_blank');
       });
       container.appendChild(div);
     });
