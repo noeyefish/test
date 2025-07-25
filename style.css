@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: #1c1c1d;
+  color: white;
+  font-family: Arial;
+}
+h2 {
+  margin: 20px 0;
+  color: #00aaff;
+}
+#channelList {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.channel {
+  display: flex;
+  align-items: center;
+  background: #2a2a2c;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.channel:hover {
+  background: #3a3a3d;
+}
+.channel img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+.channel span {
+  font-size: 1em;
+}
