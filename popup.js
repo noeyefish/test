@@ -4,17 +4,20 @@ fetch('https://raw.githubusercontent.com/RokuIL/Live-From-Israel/refs/heads/mast
     const container = document.getElementById('channelList');
     data.Channels.forEach(channel => {
       if (!channel.StreamUrls || channel.StreamUrls.length === 0) return;
+
       const validStream = channel.StreamUrls.find(url => !url.includes('@'));
       if (!validStream) return;
 
       const div = document.createElement('div');
       div.className = 'channel';
       div.innerHTML = `
-        <img src="${channel.Logo}" alt="${channel.Title}">
-        <span>${channel.Title}</span>
+        <div class="card">
+          <img src="${channel.Logo}" alt="${channel.Title}">
+          <span>${channel.Title}</span>
+        </div>
       `;
       div.addEventListener('click', () => {
-        window.open(`https://videojs.github.io/videojs-contrib-hls/?url=${encodeURIComponent(validStream)}`, '_blank');
+        window.open(`https://www.hlsplayer.org/play?url=${encodeURIComponent(validStream)}`, '_blank');
       });
       container.appendChild(div);
     });
