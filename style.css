@@ -4,32 +4,45 @@ body {
   color: white;
   font-family: Arial;
 }
+
 h2 {
   margin: 20px 0;
   color: #00aaff;
+  text-align: center;
 }
+
 #channelList {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
   padding: 10px;
+  justify-items: center;
 }
+
 .channel {
   display: flex;
+  flex-direction: column;
   align-items: center;
   background: #2a2a2c;
-  padding: 8px;
-  margin-bottom: 10px;
+  padding: 10px;
   border-radius: 6px;
   cursor: pointer;
+  width: 100px;
+  height: 100px;
+  text-align: center;
 }
+
 .channel:hover {
   background: #3a3a3d;
 }
+
 .channel img {
-  width: 40px;
-  height: 40px;
-  margin-left: 10px;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 5px;
 }
+
 .channel span {
-  font-size: 1em;
+  font-size: 0.9em;
+  word-break: break-word;
 }
