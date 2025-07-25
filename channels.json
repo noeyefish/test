@@ -1,0 +1,769 @@
+{
+    "PID": "eykd8397f75ba191c138fjll9307a886a13f9339djh38de4323cb26cb7h37f9dj3d7cd847ac1353j8l2943bcb32a2fde3a8, as38d4ca98629553ee932398f7bf29516893e39d, ya209a5ad8ea3533924hd93k9ab0bebf9ce703kd342868f1ccf123d, es83e1e488118c6833kd, nikd830bb6fd96955e39djd3, rokd91c1f645b35eb29d98k, rk765ג1618ee8b757886sfd, yo932782b57472bfdah9",
+    "SystemMessage":
+        {
+            "DST" : "",
+            "Repeat" : "",
+            "Message" : ""
+        },
+    "TimeZoneOffset": "3",
+    "Channels": [
+        {
+            "Title": "כאן 11",
+            "TitleEng": "Kan 11",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Kan%2011.png",
+            "EPGProvider": "WGP",
+            "EPGStationId": "Kan%2011",
+            "EPGBackupProvider": "Kan",
+            "EPGBackupStationId": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://kan11.media.kan.org.il/hls/live/2024514/2024514/master.m3u8",
+                "https://kan11w.media.kan.org.il/hls/live/2105694/2105694/master.m3u8",
+                "https://cdnapisec.kaltura.com/p/2717431/sp/2717431/playManifest/entryId/1_sdqcljik/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8",
+                "https://cdnapisec.kaltura.com/p/2717431/sp/2717431/playManifest/entryId/1_8ji7g6s3/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8",
+                "https://cdnapisec.kaltura.com/p/2717431/sp/2717431/playManifest/entryId/1_syhxntss/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8",
+                "https://zekonew.newkso.ru/zeko/premium548/mono.m3u8",
+                "https://www.dailymotion.com/player/metadata/video/x7wjmog"
+            ]
+        },
+        {
+            "Title": "קשת 12",
+            "TitleEng": "Keshet 12",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Keshet%2012.png",
+            "EPGProvider": "Mako",
+            "EPGBackupProvider": "WGP",
+            "EPGBackupStationId": "Keshet%2012",       
+            "StreamFormat": "hls",
+            "Headers": [
+                "Origin:https://www.n12.co.il https://newembedplay.xyz",
+                "Referer:https://www.n12.co.il/ https://newembedplay.xyz/",
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+            ],
+            "StreamUrls": [
+                "https://mako-streaming.akamaized.net@@MAKO:lp=@@/direct/hls/live/2033791/k12dvr/index.m3u8@@?@@TICKET@@",
+                "https://mako-streaming.akamaized.net@@MAKO:lp=@@/n12/hls/live/2041434/n12_b/index.m3u8@@?@@TICKET@@",
+                "https://mako-streaming.akamaized.net@@MAKO:lp=@@/n12/hls/live/2103938/k12/index.m3u8@@?@@TICKET@@",
+                "https://mako-streaming.akamaized.net@@MAKO:lp=@@/stream/hls/live/2033791/k12n12wad/index.m3u8@@?@@TICKET@@",
+                "https://mako-streaming.akamaized.net/stream/hls/live/2033791/k12dvr/profile/5/profileManifest.m3u8?_uid=f0ea0c4b-0bfe-491a-a7d6-7cfd23125300&rK=a",
+                "temporary",
+                "https://zekonew.newkso.ru/zeko/premium549/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "רשת 13",
+            "TitleEng": "Reshet 13",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Reshet%2013.jpg",
+            "EPGProvider": "Reshet",
+            "EPGBackupProvider": "WGP",
+            "EPGBackupStationId": "Reshet%2013",       
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://d18b0e6mopany4.cloudfront.net/out/v1/2f2bc414a3db4698a8e94b89eaf2da2a/index.m3u8",
+                "https://d198ztbnlup2iq.cloudfront.net/out/v1/2d9050c90fb94df8b78d1d98306a1a65/index.m3u8",
+                "https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8",
+                "https://d2xg1g9o5vns8m.cloudfront.net/out/v1/66d4ac8748ce4a9298b4e40e48d1ae2f/index.m3u8",
+                "https://zekonew.newkso.ru/zeko/premium551/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "חדשות איי 24",
+            "TitleEng": "i24 news",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/i24news.jpg",
+            "EPGProvider": "WGP",
+            "EPGStationId": "i24",            
+            "EPGBackupProvider": "i24",
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/playlist.m3u8"
+            ]
+        },
+        {
+            "Title": "ארץ נהדרת",
+            "TitleEng": "Eretz Nehederet",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Eretz%20Nehederet.png",
+            "EPGProvider": "Text",
+            "EPGStationId": "שידורים חוזרים של ארץ נהרדת",
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://mako-streaming.akamaized.net/free/hls/live/2111419/erets/video_5761024_p_0.m3u8"
+            ]
+        },
+        {
+            "Title": "האח הגדול",
+            "TitleEng": "Big Brother",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Big%20Brother.png",
+            "OnlyIn" : "IL",
+            "EPGProvider": "Text",
+            "EPGStationId": "שידור ישיר 24x7 במהלך העונה.",        
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://d2lckchr9cxrss.cloudfront.net/out/v1/c73af7694cce4767888c08a7534b503c/index.m3u8"
+            ]
+        },       
+        {
+            "Title": "ספורט 1",
+            "TitleEng": "Sport 1",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport1-1.png",
+            "EPGProvider": "Sport1",
+            "EPGStationId": "2",
+            "EPGBackupProvider": "Walla",
+            "EPGBackupStationId": "146",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium140/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 2",
+            "TitleEng": "Sport 2",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport1-3.png",
+            "EPGProvider": "Sport1",
+            "EPGStationId": "3",
+            "EPGBackupProvider": "Walla",
+            "EPGBackupStationId": "147",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium141/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 3",
+            "TitleEng": "Sport 3",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport1-4.png",
+            "EPGProvider": "Sport1",
+            "EPGStationId": "4",
+            "EPGBackupProvider": "Walla",
+            "EPGBackupStationId": "3762",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium142/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 4",
+            "TitleEng": "Sport 4",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport1-5.png",
+            "EPGProvider": "Sport1",
+            "EPGStationId": "5",
+            "EPGBackupProvider": "Walla",
+            "EPGBackupStationId": "3763",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium143/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 5",
+            "TitleEng": "Sport 5",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport-5.jpg",
+            "EPGProvider": "Sport5TV",
+            "EPGStationId": "5",
+            "EPGBackupProvider": "Walla",
+            "EPGBackupStationId": "289",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium144/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 5 פלוס",
+            "TitleEng": "Sport 5 Plus",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport-5-Plus.jpg",
+            "EPGProvider": "Sport5TV",
+            "EPGStationId": "5P",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium145/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 5 לייב",
+            "TitleEng": "Sport 5 Live",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport-5-Live.jpg",
+            "EPGProvider": "Sport5TV",
+            "EPGStationId": "LIVE",
+            "EPGBackupProvider": "Walla",
+            "EPGBackupStationId": "322",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium146/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 5 סטארס",
+            "TitleEng": "Sport 5 Stars",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Sport-5-Stars.jpg",
+            "EPGProvider": "Sport5TV",
+            "EPGStationId": "5STARS",
+            "EPGBackupProvider": "Walla",
+            "EPGBackupStationId": "521",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium147/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 1 One",
+            "TitleEng": "Sport One 1",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/SportOne-1.png",
+            "EPGProvider": "Walla",
+            "EPGStationId": "3551",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://windnew.newkso.ru/wind/premium541/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "ספורט 2 One",
+            "TitleEng": "Sport One 2",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/SportOne-2.png",
+            "EPGProvider": "WGP",
+            "EPGStationId": "Sport%20One%202",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://ddy6new.newkso.ru/ddy6/premium542/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "אי אס פי אן",
+            "TitleEng": "ESPN",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ESPN.png",
+            "EPGProvider": "flixed.io.ENG",
+            "EPGStationId": "10179",
+            "EPGBackupProvider": "WGP.ENG",
+            "EPGBackupStationId": "403793",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz https://topembed.pw",
+                "Referer:https://newembedplay.xyz/ https://topembed.pw/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium44/mono.m3u8",
+                "https://hztnew.newkso.ru/hzt/eplayerespn_usa/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "אי אס פי אן 2",
+            "TitleEng": "ESPN 2",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ESPN2.png",
+            "EPGProvider": "flixed.io.ENG",
+            "EPGStationId": "12444",
+            "EPGBackupProvider": "WGP.ENG",
+            "EPGBackupStationId": "403821",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz https://topembed.pw",
+                "Referer:https://newembedplay.xyz/ https://topembed.pw/"
+            ],
+            "StreamUrls": [
+                "https://windnew.newkso.ru/wind/premium45/mono.m3u8",
+                "https://hztnew.newkso.ru/hzt/eplayerespn2_usa/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "אן אף אל נטוורק",
+            "TitleEng": "NFL Network",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/NFLNetwork.png",
+            "EPGProvider": "flixed.io.ENG",
+            "EPGStationId": "45399",
+            "EPGBackupProvider": "WGP.ENG",
+            "EPGBackupStationId": "NFL%20Network",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz https://topembed.pw",
+                "Referer:https://newembedplay.xyz/ https://topembed.pw/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium405/mono.m3u8",
+                "https://hztnew.newkso.ru/hzt/eplayerNFLNetwork/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "סקיי ספורטס אן.אפ.אל",
+            "TitleEng": "Sky Sports NFL",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/SkySportsNFL.png",
+            "EPGProvider": "WGP.ENG",
+            "EPGStationId": "199136",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz https://topembed.pw",
+                "Referer:https://newembedplay.xyz/ https://topembed.pw/"
+            ],
+            "StreamUrls": [
+                "https://nfsnew.newkso.ru/nfs/premium37/mono.m3u8",
+                "https://azonew.newkso.ru/azo/skyaction/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "סקיי ספורטס אירוע מרכזי",
+            "TitleEng": "Sky Sports Main Event",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/SkySportsMainEvent.png",
+            "EPGProvider": "WGP.ENG",
+            "EPGStationId": "Sky%20Sports%20Main%20Event",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz https://topembed.pw",
+                "Referer:https://newembedplay.xyz/ https://topembed.pw/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium38/mono.m3u8",
+                "https://azonew.newkso.ru/azo/eplayerskymain2/mono.m3u8"
+            ]
+        },        
+        {
+            "Title": "יס סרטי ילדים",
+            "TitleEng": "Yes Kids Movies",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/YesKids.png",
+            "EPGProvider": "WGP",
+            "EPGStationId": "Yes%20Movies%20Kids",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium544/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "יס סרטי פעולה",
+            "TitleEng": "Yes Action Movies",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/YesAction.png",
+            "EPGProvider": "WGP",
+            "EPGStationId": "Yes%20Movies%20Action",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium543/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "יס טי.וי. פעולה",
+            "TitleEng": "Yes Action TV",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/YesTVAction.png",
+            "OnlyIn" : "Disabled",
+            "EPGProvider": "WGP",
+            "EPGStationId": "Yes%20TV%20Action",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium543/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "יס סרטי קומדיה",
+            "TitleEng": "Yes Comedy Movies",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/YesComedy.png",
+            "EPGProvider": "WGP",
+            "EPGStationId": "Yes%20Movies%20Comedy",
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium545/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "סי אן אן",
+            "TitleEng": "CNN",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/CNN.png",
+            "EPGProvider": "flixed.io.ENG",
+            "EPGStationId": "10142",
+            "EPGBackupProvider": "WGP.ENG",
+            "EPGBackupStationId": "CNN",
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://d1vnr7amzbx49s.cloudfront.net/index.m3u8",
+                "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
+                "https://d1yx2biofua75q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-agcuky3hp0j0j/index.m3u8",
+                "https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8",
+                "https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8"
+            ]
+        },
+        {
+            "Title": "פוקס ניוז",
+            "TitleEng": "Fox News",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/FoxNews.png",
+            "EPGProvider": "WGP.ENG",
+            "EPGStationId": "403903",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz https://topembed.pw",
+                "Referer:https://newembedplay.xyz/ https://topembed.pw/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium347/mono.m3u8",
+                "https://top2new.newkso.ru/top2/ustvfoxnnews/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "איי בי סי ניוז",
+            "TitleEng": "ABC News",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ABCNews.jpg",
+            "EPGProvider": "flixed.io.ENG",
+            "EPGStationId": "113380",
+            "EPGBackupProvider": "WGP.ENG",
+            "EPGBackupStationId": "399930",
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8"
+            ]
+        },
+        {
+            "Title": "אן בי סי ניוז",
+            "TitleEng": "NBC News",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/NBCNews.png",
+            "EPGProvider": "NBC News ENG",
+            "EPGStationId": "NEWS_NOW",
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df97894467dfa00091c873clivestitch/master.m3u8?deviceDNT=%7BTARGETOPT%7D&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceType=samsung-tvplus&deviceMake=samsung",
+                "https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991247"
+            ]
+        },
+        {
+            "Title": "חדשות קומו 4",
+            "TitleEng": "Komo 4 News",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Komo4News.png",
+            "EPGProvider": "Text",
+            "EPGStationId": "שידור חדשות חי, או הקלטת החדשות האחרונות.",        
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://content.uplynk.com/SuNoSwen/index.m3u8?channel=140"
+            ]
+        },
+        {
+            "Title": "חדשות קינג 5",
+            "TitleEng": "King 5 News",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/King5News.png",
+            "EPGProvider": "Text",
+            "EPGStationId": "שידור חדשות חי, או הקלטת החדשות האחרונות.",        
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://livevideo01.king5.com/hls/live/2006665/live/live.m3u8",
+                "https://livevideo.tegnadigital.com/king/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e3f4efbd693/KING/live/live.m3u8",
+                "https://content.uplynk.com/SuNoSwen/index.m3u8?channel=233"
+            ]
+        },
+        {
+            "Title": "חדשות קירו 7",
+            "TitleEng": "Kiro 7 News",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Kiro7News.png",
+            "EPGProvider": "Text",
+            "EPGStationId": "שידור חדשות חי, או הקלטת החדשות האחרונות.",        
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://content.uplynk.com/SuNoSwen/index.m3u8?channel=106"
+            ]
+        },
+        {
+            "Title": "חדשות קיו 13",
+            "TitleEng": "Q13 News",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Q13News.png",
+            "EPGProvider": "Text",
+            "EPGStationId": "שידור חדשות חי, או הקלטת החדשות האחרונות.",        
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://csm-e-eb.csm.tubi.video/csm/live/622835763.m3u8?playback_start_ts=1704666696&yo.ap=https://lna.tubi.video/prd-yospace/&yo.t.jt=1000&app_id=tubitv&app_mode=DEFAULT_MODE&content_id=555107&content_type=mp4&device_id=caec4c21-b9fb-4e15-bcc4-33cc34e9e679&language=en&now_pos=0&platform=WEB&pub_id=0a2ada522f8db273c200b95eee98d316&vpaid_enabled=true&yo.eb.fb=aHR0cHM6Ly9saXZlLW1hbmlmZXN0LnByb2R1Y3Rpb24tcHVibGljLnR1YmkuaW8vbGl2ZS9rY3BxL2gyNjQvcGxheWxpc3QubTN1OD90b2tlbj1leUpoYkdjaU9pSklVelV4TWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKamIzVnVkSEo1SWpvaVZWTWlMQ0prWlhacFkyVmZhV1FpT2lKallXVmpOR015TVMxaU9XWmlMVFJsTVRVdFltTmpOQzB6TTJOak16UmxPV1UyTnpraUxDSmxlSEFpT2pFM01EUTVNalU0T1RNc0ltbHpjeUk2SW14cGRtVmZibVYzYzE5dFlXNXBabVZ6ZENJc0luQnNZWFJtYjNKdElqb2lWMFZDSWl3aWNuTnpJam9pWkhVNlZrbEVSVTlmVWtWVFQweFZWRWxQVGw4M01qQlFJaXdpZFhObGNsOXBaQ0k2TUgwLnVvWnJQazBncG53a0cwOWpiR0F2S3dEb1hoMkNxX1o5Mm1GeE9DZHdISjZ3T0xMRW1kbzNsM1lYd0h2TGFhMUJfQVpmazhIeXFTRDR4YlVweTdiZmpR"
+            ]
+        },
+        {
+            "Title": "איי בי סי ניו יורק",
+            "TitleEng": "ABC NY",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ABCNY.png",
+            "EPGProvider": "WGP.ENG",
+            "EPGStationId": "403805",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium766/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "אן בי סי ניו יורק",
+            "TitleEng": "NBC NY",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/NBCNY.png",
+            "EPGProvider": "WGP.ENG",
+            "EPGStationId": "403619",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium769/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "סי בי אס ניו יורק",
+            "TitleEng": "CBS NY",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/CBSNY.png",
+            "EPGProvider": "WGP.ENG",
+            "EPGStationId": "403849",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium767/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "פוקס ניו יורק",
+            "TitleEng": "Fox NY",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/FOXNY.png",
+            "EPGProvider": "WGP.ENG",
+            "EPGStationId": "403858",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium768/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "סריקה",
+            "TitleEng": "Scan",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Search.png",
+            "EPGProvider": "Text",
+            "EPGStationId": "חיפוש ערוצים בלחיצה על חץ למעלה (+1), למטה (1-), ימינה (+100) או שמאלה (100-).",        
+            "BufferingTimer": "1",
+            "StreamFormat": "hls",
+            "Headers": [
+                "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+                "Origin:https://newembedplay.xyz",
+                "Referer:https://newembedplay.xyz/"
+            ],
+            "StreamUrls": [
+                "https://zekonew.newkso.ru/zeko/premium[1]-[900]/mono.m3u8"
+            ]
+        },
+        {
+            "Title": "גל'צ",
+            "TitleEng": "Galaz",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Gltz.jpg",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://glzwizzlv.bynetcdn.com/glz_mp3?awCollectionId=misc&awEpisodeId=glz"
+            ]
+        },
+        {
+            "Title": "גלגל'צ",
+            "TitleEng": "Galgalaz",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/Glgltz.jpg",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://glzwizzlv.bynetcdn.com/glglz_mp3?awCollectionId=misc&awEpisodeId=glglz"
+            ]
+        },
+        {
+            "Title": "88FM",
+            "TitleEng": "88FM",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ipbc_radio_88.png",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://kanliveicy.media.kan.org.il/icy/kan88_mp3"
+            ]
+        },
+        {
+            "Title": "אקו 99FM",
+            "TitleEng": "99FM - Echo",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/eco99fm.png",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://99.livecdn.biz/99fm",
+                "http://eco-live.mediacast.co.il/99fm"
+            ]
+        },
+        {
+            "Title": "רדיוס 100FM",
+            "TitleEng": "100FM - Radius",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/radius_100fm.png",
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://cdn.cybercdn.live/Radios_100FM/Audio/playlist.m3u8"
+            ]
+        },
+        {
+            "Title": "רדיו תל-אביב 102FM",
+            "TitleEng": "102FM - Tel-Aviv",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/telaviv102fm.png",
+            "StreamFormat": "aac_adts",
+            "StreamUrls": [
+                "https://cdn88.mediacast.co.il/102fm-tlv/102fm_aac/icecast.audio"
+            ]
+        },
+        {
+            "Title": "רדיו ללא הפסקה 103FM",
+            "TitleEng": "103FM - Lelo Hafsaka",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/103fm.png",
+            "StreamFormat": "aac_adts",
+            "StreamUrls": [
+                "https://cdn.cybercdn.live/103FM/Live/icecast.audio"
+            ]
+        },
+        {
+            "Title": "רדיו חיפה 107.5FM",
+            "TitleEng": "107.5FM - Haifa",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/haifa_107.png",
+            "StreamFormat": "aac_adts",
+            "StreamUrls": [
+                "http://ads11.livecdn.biz:80/radiohaifa",
+                "http://1075.livecdn.biz/radiohaifa"
+            ]
+        },
+        {
+            "Title": "רדיו נוסטלגיה",
+            "TitleEng": "Nostalgy",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/nostalgia_radio.png",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://194.213.4.197:8000/;"
+            ]
+        },
+        {
+            "Title": "קול המוסיקה",
+            "TitleEng": "Kol Hamusica",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ipbc_radio_musika.png",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://kanliveicy.media.kan.org.il/icy/kankolhamusica_mp3"
+            ]
+        },
+        {
+            "Title": "תרבות",
+            "TitleEng": "Tarbut",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ipbc_radio_tarbut.png",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://kanliveicy.media.kan.org.il/icy/kantarbut_mp3"
+            ]
+        },
+        {
+            "Title": "רשת ב",
+            "TitleEng": "Reshet Bet",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ipbc_radio_bet.png",
+            "StreamFormat": "hls",
+            "StreamUrls": [
+                "https://kanbet.media.kan.org.il/hls/live/2024811/2024811/kanbet_mp3/chunklist.m3u8"
+            ]
+        },
+        {
+            "Title": "רשת ג",
+            "TitleEng": "Reshet Gimel",
+            "Logo": "https://raw.githubusercontent.com/RokuIL/Live-From-Israel/master/Logos/ipbc_radio_gimmel.png",
+            "StreamFormat": "mp3",
+            "StreamUrls": [
+                "http://kanliveicy.media.kan.org.il/icy/kangimmel_mp3"
+            ]
+        }
+    ]
+}
