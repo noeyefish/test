@@ -19,6 +19,10 @@ h2 {
   justify-items: center;
 }
 
+.channel {
+  cursor: pointer; /* אצבע */
+}
+
 .channel .card {
   background: #2a2a2c;
   border-radius: 12px;
@@ -29,12 +33,14 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  transition: background 0.2s ease;
+  transition: transform 0.2s ease, background 0.2s ease; /* אנימציה */
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   text-align: center;
 }
 
-.channel .card:hover {
+/* הרחבה קלה ב-hover */
+.channel:hover .card {
+  transform: scale(1.05);
   background: #3a3a3d;
 }
 
